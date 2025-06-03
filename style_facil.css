@@ -1,0 +1,45 @@
+.titulo{
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding: 1px; /* Espaçamento entre a margem e o texto*/
+    background: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    height: 80px;
+}
+.pontos{
+    color: aliceblue;
+}
+.questao{
+    display: block;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 2cm; /* Espaçamento entre a margem e o texto*/
+    background: rgba(77, 113, 190, 0.15);
+    width: auto;
+    height: auto;
+    margin: 30px; 
+    align-content: center;
+    justify-content: center;
+}
+button{
+    margin: 10px;
+    color: aliceblue;
+    background-color: #6b6b64;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 50px;
+    align-items: center;
+}
+button:hover{
+    background-color: #5f5f59;
+    cursor: pointer;
+}
+body{
+    
+    display: block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color:rgb(64, 88, 54);
+}
