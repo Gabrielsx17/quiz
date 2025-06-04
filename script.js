@@ -76,8 +76,11 @@ pontos = 0;
 alternativa_certa = True;
 
 function button1() {
+  if (i === 3 || i === 9){
+    pontos=pontos+1
+  }
   i = i + 1;
-  pontos = pontos + 1;
+
   document.getElementById("pontuacao").textContent = pontos_fig = [pontos];
   document.getElementById("titulo").textContent = num_questao[i];
   document.getElementById("pergunta").textContent = perguntas_lista[i];
@@ -91,6 +94,9 @@ function button1() {
 }
 }
 function button2() {
+  if (i === 1 || i === 5 || i === 6 ){
+    pontos=pontos+1
+  }
   i = i + 1;
 
   document.getElementById("pontuacao").textContent = pontos_fig = [pontos];
@@ -106,6 +112,9 @@ function button2() {
 }
 }
 function button3() {
+  if (i === 0 || i === 7 || i === 8 || i === 4){
+    pontos=pontos+1
+  }
   i = i + 1;
 
   document.getElementById("pontuacao").textContent = pontos_fig = [pontos];
@@ -123,6 +132,9 @@ function button3() {
 }
 
 function button4() {
+  if (i === 2 ){
+    pontos=pontos+1
+  }
   i = i + 1;
 
   document.getElementById("pontuacao").textContent = pontos_fig = [pontos];
@@ -138,3 +150,7 @@ function button4() {
 }
 }
 
+function voltar(){
+  window.location.href= "tela_inicial.html"
+  pontos=0
+}
