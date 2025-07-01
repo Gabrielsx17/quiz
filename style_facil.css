@@ -23,23 +23,32 @@
     justify-content: center;
 }
 button{
+    border: #6b6b12;
+    border: 5px;
     margin: 10px;
-    color: aliceblue;
-    background-color: #6b6b64;
+    color: rgb(34, 35, 36);
+    background-color: rgb(204, 187, 165);
     font-size: 20px;
     border-radius: 10px;
     padding: 50px;
     align-items: center;
 }
-button:hover{
-    background-color: #5f5f59;
-    cursor: pointer;
-}
+
 body{
     
     display: block;
     justify-content: center;
     align-content: center;
+    align-items: center;
     text-align: center;
     background-color:rgb(64, 88, 54);
+}
+.voltar{
+    display: none;
+}
+
+
+button:hover{
+    background-color: rgb(52, 160, 52);
+    cursor: pointer;
 }

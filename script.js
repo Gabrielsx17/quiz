@@ -90,7 +90,15 @@ function button1() {
   document.getElementById("button4").textContent = bloco_alternativa4[i];
 
   if (i>9){
-     window.location.href= "tela_resultados.html"
+    document.getElementById("button1").style.display="none"
+    document.getElementById("button2").style.display="none"
+    document.getElementById("button3").style.display="none"
+    document.getElementById("button4").style.display="none"
+    document.getElementById("voltar").style.display="block"
+    document.getElementById("bloco_questoes").style.display="none"
+    document.getElementById("pontos_texto").style.fontSize="40px"
+    document.getElementById("pontos_texto").textContent="A sua pontuação foi: "
+    document.getElementById("pontuacao").style.fontSize="60px"
 }
 }
 function button2() {
@@ -108,7 +116,17 @@ function button2() {
   document.getElementById("button4").textContent = bloco_alternativa4[i];
 
   if (i>9){
-     window.location.href= "tela_resultados.html"
+    document.getElementById("button1").style.display="none"
+    document.getElementById("button2").style.display="none"
+    document.getElementById("button3").style.display="none"
+    document.getElementById("button4").style.display="none"
+    document.getElementById("voltar").style.display="block"
+    document.getElementById("bloco_questoes").style.display="none"
+    document.getElementById("pontos_texto").style.fontSize="40px"
+    document.getElementById("pontos_texto").textContent="A sua pontuação foi: "
+    document.getElementById("pontuacao").style.fontSize="60px"
+    
+    
 }
 }
 function button3() {
@@ -126,7 +144,15 @@ function button3() {
   document.getElementById("button4").textContent = bloco_alternativa4[i];
 
   if (i>9){
-     window.location.href= "tela_resultados.html"
+    document.getElementById("button1").style.display="none"
+    document.getElementById("button2").style.display="none"
+    document.getElementById("button3").style.display="none"
+    document.getElementById("button4").style.display="none"
+    document.getElementById("voltar").style.display="block"
+    document.getElementById("bloco_questoes").style.display="none"
+    document.getElementById("pontos_texto").style.fontSize="40px"
+    document.getElementById("pontos_texto").textContent="A sua pontuação foi: "
+    document.getElementById("pontuacao").style.fontSize="60px"
 }
 
 }
@@ -146,7 +172,16 @@ function button4() {
   document.getElementById("button4").textContent = bloco_alternativa4[i];
 
   if (i>9){
-     window.location.href= "tela_resultados.html"
+    document.getElementById("button1").style.display="none"
+    document.getElementById("button2").style.display="none"
+    document.getElementById("button3").style.display="none"
+    document.getElementById("button4").style.display="none"
+    document.getElementById("voltar").style.display="block"
+    document.getElementById("bloco_questoes").style.display="none"
+    document.getElementById("pontos_texto").style.fontSize="40px"
+    document.getElementById("pontos_texto").textContent="A sua pontuação foi: "
+    document.getElementById("pontuacao").style.fontSize="60px"
+    
 }
 }
 
